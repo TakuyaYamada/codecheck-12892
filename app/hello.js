@@ -7,7 +7,7 @@ function hello(name) {
   if(name=="world"){
     return "Hello World!";
   }else if(name=="codecheck"){
-    return "Hello codecheck!")
+    return "Hello codecheck!"
   }
 }
 
