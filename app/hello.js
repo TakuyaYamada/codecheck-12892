@@ -4,7 +4,7 @@ function hello(name) {
 * nameが"codecheck"の場合には、"Hello codecheck!"が返されます。
 */
   //ここにHelloworldを実装します。
-  if(name=="world"){
+  if(name=="World"){
     return "Hello World!";
   }else if(name=="codecheck"){
     return "Hello codecheck!"
