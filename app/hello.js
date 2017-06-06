@@ -4,7 +4,11 @@ function hello(name) {
 * nameが"codecheck"の場合には、"Hello codecheck!"が返されます。
 */
   //ここにHelloworldを実装します。
-  return "Hello World!";
+  if(name=="world"){
+    return "Hello World!";
+  }else if(name=="codecheck"){
+    return "Hello codecheck!")
+  }
 }
 
 module.exports = hello;
